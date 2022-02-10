@@ -11416,6 +11416,25 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
+.name-brand{
+  display: flex;
+  flex-direction: row;
+}
+.resume-section-content img{
+  margin:auto 5%;
+  width: 4rem !important;
+  height: 4rem !important;
+
+  animation: reactLogo 4s linear infinite;
+}
+
+@keyframes reactLogo {
+  0%{transform: rotate(0deg);} 
+  25%{transform: rotate(90deg);}
+  50%{transform: rotate(180deg);} 
+  75%{transform: rotate(270deg);}
+  100%{transform: rotate(360deg);}
+}
 section.resume-section .resume-section-content {
   width: 100%;
 }
