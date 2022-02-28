@@ -11420,7 +11420,7 @@ section.resume-section {
   display: flex;
   flex-direction: row;
 }
-.resume-section-content img{
+.resume-section-content .react-logo{
   margin:auto 5%;
   width: 4rem !important;
   height: 4rem !important;
@@ -11435,6 +11435,12 @@ section.resume-section {
   75%{transform: rotate(270deg);}
   100%{transform: rotate(360deg);}
 }
+.movie{
+  margin:auto 0;
+  width: 500px;
+  height: 300px;
+}
+
 section.resume-section .resume-section-content {
   width: 100%;
 }
